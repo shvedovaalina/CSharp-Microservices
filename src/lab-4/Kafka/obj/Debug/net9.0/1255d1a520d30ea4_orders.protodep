@@ -1,3 +1,0 @@
-obj/Debug/net9.0/Protos/Orders.cs \
-obj/Debug/net9.0/Protos/OrdersGrpc.cs: /Users/alinasvedova/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/wrappers.proto\
- Protos/orders.proto

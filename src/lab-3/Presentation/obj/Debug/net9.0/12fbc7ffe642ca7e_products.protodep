@@ -1,2 +1,0 @@
-obj/Debug/net9.0/Products.cs \
-obj/Debug/net9.0/ProductsGrpc.cs: protos/products.proto
