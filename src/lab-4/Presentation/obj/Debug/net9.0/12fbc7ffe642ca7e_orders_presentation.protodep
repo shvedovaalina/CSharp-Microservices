@@ -1,0 +1,3 @@
+obj/Debug/net9.0/OrdersPresentation.cs \
+obj/Debug/net9.0/OrdersPresentationGrpc.cs: /Users/alinasvedova/.nuget/packages/grpc.tools/2.63.0/build/native/include/google/protobuf/timestamp.proto\
+ protos/orders_presentation.proto

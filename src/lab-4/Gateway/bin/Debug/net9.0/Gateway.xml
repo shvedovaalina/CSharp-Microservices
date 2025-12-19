@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gateway</name>
+    </assembly>
+    <members>
+        <member name="T:Presentation.OrdersPresentationReflection">
+            <summary>Holder for reflection information generated from orders_presentation.proto</summary>
+        </member>
+        <member name="P:Presentation.OrdersPresentationReflection.Descriptor">
+            <summary>File descriptor for orders_presentation.proto</summary>
+        </member>
+        <member name="F:Presentation.CreateOrderRequest.CreatedByFieldNumber">
+            <summary>Field number for the "created_by" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateOrderResponse.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateOrderResponse.OrderStateFieldNumber">
+            <summary>Field number for the "order_state" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateOrderResponse.CreatedAtFieldNumber">
+            <summary>Field number for the "created_at" field.</summary>
+        </member>
+        <member name="F:Presentation.CreateOrderResponse.CreatedByFieldNumber">
+            <summary>Field number for the "created_by" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItemInput.ProductIdFieldNumber">
+            <summary>Field number for the "product_id" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItemInput.QuantityFieldNumber">
+            <summary>Field number for the "quantity" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItem.OrderItemIdFieldNumber">
+            <summary>Field number for the "order_item_id" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItem.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItem.ProductIdFieldNumber">
+            <summary>Field number for the "product_id" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItem.QuantityFieldNumber">
+            <summary>Field number for the "quantity" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderItem.DeletedFieldNumber">
+            <summary>Field number for the "deleted" field.</summary>
+        </member>
+        <member name="F:Presentation.AddItemsRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.AddItemsRequest.ItemsFieldNumber">
+            <summary>Field number for the "items" field.</summary>
+        </member>
+        <member name="F:Presentation.AddItemsResponse.AddedItemsFieldNumber">
+            <summary>Field number for the "added_items" field.</summary>
+        </member>
+        <member name="F:Presentation.DeleteItemsRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.DeleteItemsRequest.ProductIdFieldNumber">
+            <summary>Field number for the "product_id" field.</summary>
+        </member>
+        <member name="F:Presentation.StartProcessingRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.CompleteRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.CancelRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.GetHistoryRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.GetHistoryRequest.CursorFieldNumber">
+            <summary>Field number for the "cursor" field.</summary>
+        </member>
+        <member name="F:Presentation.GetHistoryRequest.PageSizeFieldNumber">
+            <summary>Field number for the "page_size" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.IdFieldNumber">
+            <summary>Field number for the "id" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.CreatedAtFieldNumber">
+            <summary>Field number for the "created_at" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.KindFieldNumber">
+            <summary>Field number for the "kind" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.CreatedFieldNumber">
+            <summary>Field number for the "created" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.ItemAddedFieldNumber">
+            <summary>Field number for the "item_added" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.ItemRemovedFieldNumber">
+            <summary>Field number for the "item_removed" field.</summary>
+        </member>
+        <member name="F:Presentation.OrderHistoryItem.StateChangedFieldNumber">
+            <summary>Field number for the "state_changed" field.</summary>
+        </member>
+        <member name="T:Presentation.OrderHistoryItem.PayloadOneofCase">
+            <summary>Enum of possible cases for the "payload" oneof.</summary>
+        </member>
+        <member name="F:Presentation.OrderCreatedPayload.CreatedByFieldNumber">
+            <summary>Field number for the "created_by" field.</summary>
+        </member>
+        <member name="F:Presentation.ItemAddedPayload.ProductIdFieldNumber">
+            <summary>Field number for the "product_id" field.</summary>
+        </member>
+        <member name="F:Presentation.ItemAddedPayload.QuantityFieldNumber">
+            <summary>Field number for the "quantity" field.</summary>
+        </member>
+        <member name="F:Presentation.ItemRemovedPayload.ProductIdFieldNumber">
+            <summary>Field number for the "product_id" field.</summary>
+        </member>
+        <member name="F:Presentation.StateChangedPayload.OldStateFieldNumber">
+            <summary>Field number for the "old_state" field.</summary>
+        </member>
+        <member name="F:Presentation.StateChangedPayload.NewStateFieldNumber">
+            <summary>Field number for the "new_state" field.</summary>
+        </member>
+        <member name="P:Presentation.OrderService.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Presentation.OrderService.OrderServiceClient">
+            <summary>Client for OrderService</summary>
+        </member>
+        <member name="M:Presentation.OrderService.OrderServiceClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for OrderService</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Presentation.OrderService.OrderServiceClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for OrderService that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Presentation.OrderService.OrderServiceClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Presentation.OrderService.OrderServiceClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Presentation.OrderService.OrderServiceClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+        <member name="T:Orders.ProcessingService.Contracts.OrdersReflection">
+            <summary>Holder for reflection information generated from orders.proto</summary>
+        </member>
+        <member name="P:Orders.ProcessingService.Contracts.OrdersReflection.Descriptor">
+            <summary>File descriptor for orders.proto</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.ApproveOrderRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.ApproveOrderRequest.IsApprovedFieldNumber">
+            <summary>Field number for the "is_approved" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.ApproveOrderRequest.ApprovedByFieldNumber">
+            <summary>Field number for the "approved_by" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.ApproveOrderRequest.FailureReasonFieldNumber">
+            <summary>Field number for the "failure_reason" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.StartOrderPackingRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.StartOrderPackingRequest.PackingByFieldNumber">
+            <summary>Field number for the "packing_by" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.FinishOrderPackingRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.FinishOrderPackingRequest.IsSuccessfulFieldNumber">
+            <summary>Field number for the "is_successful" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.FinishOrderPackingRequest.FailureReasonFieldNumber">
+            <summary>Field number for the "failure_reason" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.StartOrderDeliveryRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.StartOrderDeliveryRequest.DeliveredByFieldNumber">
+            <summary>Field number for the "delivered_by" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.FinishOrderDeliveryRequest.OrderIdFieldNumber">
+            <summary>Field number for the "order_id" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.FinishOrderDeliveryRequest.IsSuccessfulFieldNumber">
+            <summary>Field number for the "is_successful" field.</summary>
+        </member>
+        <member name="F:Orders.ProcessingService.Contracts.FinishOrderDeliveryRequest.FailureReasonFieldNumber">
+            <summary>Field number for the "failure_reason" field.</summary>
+        </member>
+        <member name="P:Orders.ProcessingService.Contracts.OrderService.Descriptor">
+            <summary>Service descriptor</summary>
+        </member>
+        <member name="T:Orders.ProcessingService.Contracts.OrderService.OrderServiceClient">
+            <summary>Client for OrderService</summary>
+        </member>
+        <member name="M:Orders.ProcessingService.Contracts.OrderService.OrderServiceClient.#ctor(Grpc.Core.ChannelBase)">
+            <summary>Creates a new client for OrderService</summary>
+            <param name="channel">The channel to use to make remote calls.</param>
+        </member>
+        <member name="M:Orders.ProcessingService.Contracts.OrderService.OrderServiceClient.#ctor(Grpc.Core.CallInvoker)">
+            <summary>Creates a new client for OrderService that uses a custom <c>CallInvoker</c>.</summary>
+            <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+        </member>
+        <member name="M:Orders.ProcessingService.Contracts.OrderService.OrderServiceClient.#ctor">
+            <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+        </member>
+        <member name="M:Orders.ProcessingService.Contracts.OrderService.OrderServiceClient.#ctor(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Protected constructor to allow creation of configured clients.</summary>
+            <param name="configuration">The client configuration.</param>
+        </member>
+        <member name="M:Orders.ProcessingService.Contracts.OrderService.OrderServiceClient.NewInstance(Grpc.Core.ClientBase.ClientBaseConfiguration)">
+            <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+        </member>
+    </members>
+</doc>

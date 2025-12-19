@@ -1,0 +1,34 @@
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /bin/Debug/net9.0/Kafka
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /bin/Debug/net9.0/Kafka.deps.json
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /bin/Debug/net9.0/Kafka.runtimeconfig.json
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /bin/Debug/net9.0/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /bin/Debug/net9.0/Kafka.pdb
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /bin/Debug/net9.0/Kafka.xml
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.csproj.AssemblyReference.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.AssemblyInfoInputs.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.AssemblyInfo.cs
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.csproj.CoreCompileInputs.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.sourcelink.json
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.csproj.Up2Date
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/refint/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.xml
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.pdb
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/Kafka.genruntimeconfig.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Infrastructure.Kafka /obj/Debug/net9.0/ref/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/bin/Debug/net9.0/Kafka.deps.json
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/bin/Debug/net9.0/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/bin/Debug/net9.0/Kafka.pdb
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/bin/Debug/net9.0/Kafka.xml
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.csproj.AssemblyReference.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.AssemblyInfoInputs.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.AssemblyInfo.cs
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.csproj.CoreCompileInputs.cache
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.sourcelink.json
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/refint/Kafka.dll
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.xml
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/Kafka.pdb
+/Users/alinasvedova/Desktop/shvedovaalina/src/Kafka/obj/Debug/net9.0/ref/Kafka.dll

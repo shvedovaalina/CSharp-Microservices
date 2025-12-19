@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    
+    <ItemGroup>
+        <PackageReference Include="Grpc.AspNetCore" />
+        <PackageReference Include="Grpc.AspNetCore.Server.Reflection" />
+        <PackageReference Include="Grpc.Tools" PrivateAssets="All" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <Protobuf ProtoRoot="protos" Include="protos/**/*.proto" GrpcServices="Server" />
+    </ItemGroup>
+    
+
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Application.csproj" />
+      <ProjectReference Include="..\Core\Core.csproj" />
+      <ProjectReference Include="..\Infrastucture\Infrastucture.csproj" />
+      <ProjectReference Include="..\Task1\Task1.csproj" />
+      <ProjectReference Include="..\Task2\Task2.csproj" />
+    </ItemGroup>
+
+</Project>
