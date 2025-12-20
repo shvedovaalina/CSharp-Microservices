@@ -2,7 +2,7 @@
 .NET / C# microservices labs: Clean Architecture, Postgres, gRPC Gateway, Kafka
 # Microservices Labs - ITMO University
 
-Лабораторные работы по разработке микросервисных приложений на C# и .NET 8.
+Лабораторные работы по разработке микросервисных приложений на C# и .NET 9.
 
 ## Технологический стек
 
@@ -10,7 +10,7 @@
 - **Архитектура**: Hexagonal Architecture, Microservices
 - **Коммуникация**: gRPC, HTTP REST, Kafka
 - **База данных**: PostgreSQL, Npgsql
-- **ORM & Миграции**: FluentMigrator
+- **Миграции**: FluentMigrator
 - **Инфраструктура**: Docker, Docker Compose
 - **Dependency Injection**: Microsoft.Extensions.DependencyInjection
 - **Конфигурация**: Microsoft.Extensions.Configuration, Custom Configuration Providers
@@ -92,7 +92,7 @@
 - Kafka UI для мониторинга
 - Options Pattern для конфигурации
 
-## 🏗️ Архитектурные решения
+## Архитектурные решения
 
 ### Hexagonal Architecture
 ```
@@ -109,7 +109,7 @@ Presentation (gRPC/HTTP) → Application (Services) → Domain → Infrastructur
 - Options Pattern с валидацией
 - Динамическое обновление через IOptionsMonitor
 
-## 🚀 Запуск проектов
+## Запуск проектов
 
 Каждая лабораторная содержит docker-compose файл для развертывания зависимостей:
 ```bash
