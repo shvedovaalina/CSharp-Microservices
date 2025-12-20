@@ -1,5 +1,3 @@
-# CSharp-Microservices
-.NET / C# microservices labs: Clean Architecture, Postgres, gRPC Gateway, Kafka
 # Microservices Labs - ITMO University
 
 Лабораторные работы по разработке микросервисных приложений на C# и .NET 9.
