@@ -1,4 +1,4 @@
-# Microservices Labs - ITMO University
+# Microservices Labs 
 
 Лабораторные работы по разработке микросервисных приложений на C# и .NET 9.
 
